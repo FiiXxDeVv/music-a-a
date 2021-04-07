@@ -6,7 +6,7 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('NzI4MzY4OTE3NDg3MDI2MjI4.Xv5Yag._Ai38I_KKBRU-wOnAzMpS-srQl4');
+client.login('Nzg3OTQ4NDM4NzAwMDMyMDMw.X9cYKw.aY9yR_3kBJMcJ4D1SntflarNjOE');
 client.commands = new Collection();
 client.setMaxListeners(0);
 client.prefix = PREFIX;
@@ -37,7 +37,7 @@ client.on(`ready`, () => {
       });
       
 
-    client.user.setActivity(`Type: ${PREFIX}help - Music Is One`, { type: "LISTENING"});
+    client.user.setActivity(`Type: ${PREFIX}help - Davos Is One`, { type: "LISTENING"});
     client.user.setActivity(`Type: GuIdis ${client.guilds.cache.size},Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "LISTENING"});
       }, (5000));
       ////////////////////////////////
@@ -97,7 +97,7 @@ client.on(`message`, async (message) => {
 [Support](https://discord.gg/PqBjHq8Nk9) - [Invite](https://discord.com/api/oauth2/authorize?client_id=728368917487026228&permissions=8&scope=bot)
 
 **Developers Bot** :
-𝙽⁵¹A7a Ablaxyyy💉ᵈʳ#7992 - Davos#5555
+Freak#0545 - Davos#5555
 
 **Set Status** :
 Online
@@ -106,7 +106,7 @@ Online
 25/1/2021
 
 **Prefix Bot** :
-a!
+p!
 
 `)
 
@@ -125,9 +125,9 @@ a!
     .setDescription (`
 <:emoji_65:815251304070905857> Links
 
-[Support](https://discord.gg/PqBjHq8Nk9)
+[Support](https://discord.gg/eYQg66Ss87)
 -
-[Invite](https://discord.com/api/oauth2/authorize?client_id=728368917487026228&permissions=8&scope=bot)`)
+[Invite](https://discord.com/oauth2/authorize?client_id=787948438700032030&permissions=1647705169&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
     .setTitle(`**Support Music**`) 
