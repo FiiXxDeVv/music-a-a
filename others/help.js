@@ -20,22 +20,22 @@ module.exports = {
     .setDescription(`
 
 **User Commands**
-\`p!invite\` - \`p!support\` - \`p!about\`
-\`p!ping\` - \`p!prefix\` - \`p!uptime\`
+\`A!invite\` - \`A!support\` - \`A!about\`
+\`A!ping\` - \`A!prefix\` - \`A!uptime\`
 
 **Music Commands**
-\`p!play\` - \`p!skip\` - \`p!skipto\`
-\`p!stop\` - \`p!volume\` - \`p!nowplaying\`
-\`p!shuffle\` - \`p!search\` - \`p!resume\`
-\`p!remove\` - \`p!queue\` - \`p!filter\`
-\`p!loop\` - \`p!lyrics\` - \`p!radio\`
+\`A!play\` - \`A!skip\` - \`A!skipto\`
+\`A!stop\` - \`A!volume\` - \`A!nowplaying\`
+\`A!shuffle\` - \`A!search\` - \`A!resume\`
+\`A!remove\` - \`A!queue\` - \`A!filter\`
+\`A!loop\` - \`A!lyrics\` - \`A!radio\`
 
 **Links**
-[Support](https://discord.gg/eYQg66Ss87) - [Invite](https://discord.com/oauth2/authorize?client_id=787948438700032030&permissions=1647705169&scope=bot)
+[Support](https://discord.gg/NmGuYUhYRN) - [Invite](https://discord.com/api/oauth2/authorize?client_id=821667430694780938&permissions=8&scope=bot)
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-   .setColor("YELLOW");
+   .setColor("BLUE");
    message.react("<:emoji_74:815251307635015731>")
     return message.channel.send(helpEmbed).catch(console.error);
 
