@@ -6,7 +6,7 @@ const db = require('quick.db');
 const { TOKEN, PREFIX, AVATARURL, BOTNAME, } = require(`./config.json`);
 const figlet = require("figlet");
 const client = new Client({ disableMentions: `` , partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-client.login('Nzg3OTQ4NDM4NzAwMDMyMDMw.X9cYKw.aY9yR_3kBJMcJ4D1SntflarNjOE');
+client.login('ODIxNjY3NDMwNjk0NzgwOTM4.YFHDbQ.bMaFeYzlwcTtkgpm3UzFcqCnaRA');
 client.commands = new Collection();
 client.setMaxListeners(0);
 client.prefix = PREFIX;
@@ -94,7 +94,7 @@ client.on(`message`, async (message) => {
     .setTimestamp()
     .setDescription(`
 
-[Support](https://discord.gg/PqBjHq8Nk9) - [Invite](https://discord.com/api/oauth2/authorize?client_id=728368917487026228&permissions=8&scope=bot)
+[Support](https://discord.gg/NmGuYUhYRN) - [Invite](https://discord.com/api/oauth2/authorize?client_id=821667430694780938&permissions=8&scope=bot)
 
 **Developers Bot** :
 Freak#0545 - Davos#5555
@@ -106,7 +106,7 @@ Online
 25/1/2021
 
 **Prefix Bot** :
-p!
+A!
 
 `)
 
@@ -125,9 +125,9 @@ p!
     .setDescription (`
 <:emoji_65:815251304070905857> Links
 
-[Support](https://discord.gg/eYQg66Ss87)
+[Support](https://discord.gg/NmGuYUhYRN)
 -
-[Invite](https://discord.com/oauth2/authorize?client_id=787948438700032030&permissions=1647705169&scope=bot)`)
+[Invite](https://discord.com/api/oauth2/authorize?client_id=821667430694780938&permissions=8&scope=bot)`)
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setImage(``)
     .setTitle(`**Support Music**`) 
