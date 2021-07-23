@@ -16,22 +16,22 @@ module.exports = {
 
     let helpEmbed = new MessageEmbed()
     .setThumbnail(`https://cdn.discordapp.com/attachments/827276822382116895/827587022809333771/image0.png`)
-    .setTitle(`**Davos Help**`)
+    .setTitle(`**Roya Music Help**`)
     .setDescription(`
 
 **User Commands**
-\`A!invite\` - \`A!support\` - \`A!about\`
-\`A!ping\` - \`A!prefix\` - \`A!uptime\`
+\`!invite\` - \`!support\` - \`!about\`
+\`!ping\` - \`!prefix\` - \`!uptime\`
 
 **Music Commands**
-\`A!play\` - \`A!skip\` - \`A!skipto\`
-\`A!stop\` - \`A!volume\` - \`A!nowplaying\`
-\`A!shuffle\` - \`A!search\` - \`A!resume\`
-\`A!remove\` - \`A!queue\` - \`A!filter\`
-\`A!loop\` - \`A!lyrics\` - \`A!radio\`
+\`!play\` - \`!skip\` - \`!skipto\`
+\`!stop\` - \`!volume\` - \`!nowplaying\`
+\`!shuffle\` - \`!search\` - \`!resume\`
+\`!remove\` - \`!queue\` - \`!filter\`
+\`!loop\` - \`!lyrics\` - \`!radio\`
 
 **Links**
-[Support](https://discord.gg/NmGuYUhYRN) - [Invite](https://discord.com/api/oauth2/authorize?client_id=821667430694780938&permissions=8&scope=bot)
+[Support](https://discord.gg/3VvvreDEwH) - [Invite](https://discord.com/api/oauth2/authorize?client_id=868113135918272512&permissions=8&scope=bot)
 `)
 
    .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
